@@ -43,8 +43,8 @@ Plot the performance plot
 Evaluate the model with the testing data.
 
 ## PROGRAM
-### Name:
-### Register Number:
+### Name: SUNIL KUMAR T
+### Register Number: 212223240164
 ```python
 import torch
 import torch.nn as nn
