@@ -130,5 +130,4 @@ plt.ylabel("Loss")
 
 
 ## RESULT
-
-Include your result here
+To develop a neural network regression model for the given dataset is excuted sucessfully.
