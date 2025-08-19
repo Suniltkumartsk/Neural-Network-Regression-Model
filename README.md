@@ -46,31 +46,6 @@ Evaluate the model with the testing data.
 ### Name: SUNIL KUMAR T
 ### Register Number: 212223240164
 ```python
-import torch
-import torch.nn as nn
-import torch.optim as optim
-import pandas as pd
-from sklearn.preprocessing import MinMaxScaler
-
-df=pd.read_csv("Dataset.csv")
-df.info()
-
-X=df['Input']
-y=df['Output']
-y = y.values.reshape(-1, 1)   
-X = X.values.reshape(-1, 1)   
-
-from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=33)
-from sklearn.preprocessing import MinMaxScaler
-scaler=MinMaxScaler()
-X_train=scaler.fit_transform(X_train)
-X_test=scaler.transform(X_test)
-X_train_tensor = torch.tensor(X_train, dtype=torch.float32)
-Y_train_tensor = torch.tensor(y_train, dtype=torch.float32).view(-1, 1)
-X_test_tensor = torch.tensor(X_test, dtype=torch.float32)
-Y_test_tensor = torch.tensor(y_test, dtype=torch.float32).view(-1, 1)
-
 import torch.nn as nn
 class NeuralNet(nn.Module):
   def __init__(self):
