@@ -102,6 +102,9 @@ plt.ylabel("Loss")
 ### Training Loss Vs Iteration Plot
 <img width="939" height="501" alt="Screenshot 2025-08-19 111219" src="https://github.com/user-attachments/assets/40ee4f47-522c-413f-a7c1-99c95ce77b0f" />
 
+### New Sample Data Prediction:
+
+<img width="976" height="787" alt="Screenshot 2025-08-19 112905" src="https://github.com/user-attachments/assets/0093c03d-322c-420d-8793-71887ad13b3c" />
 
 
 ## RESULT
