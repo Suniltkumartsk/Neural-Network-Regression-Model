@@ -6,7 +6,7 @@ To develop a neural network regression model for the given dataset.
 
 ## THEORY
 
-Explain the problem statement
+The model consists of three fully connected layers where the first layer takes one input and maps it to eight neurons, the second layer maps eight neurons to ten, and the final layer maps ten neurons to a single output. ReLU activation is applied in the hidden layers to introduce non-linearity, while the output layer remains linear to suit regression tasks. The training process uses Mean Squared Error (MSE) as the loss function, since it is commonly used for measuring errors in continuous value predictions. For optimization, the RMSProp optimizer is applied to adjust the weights efficiently and speed up convergence. During training, the model undergoes forward propagation to generate predictions, calculates the loss by comparing predictions with the target values, and applies backpropagation to update weights. The loss values are stored in a history dictionary, and after training, the model is evaluated on test data to compute test loss, which indicates how well the model generalizes. Finally, the training loss is visualized using a loss curve, which shows how the error decreases over epochs. A smooth decreasing curve indicates effective learning of the model.
 
 ## Neural Network Model
 
