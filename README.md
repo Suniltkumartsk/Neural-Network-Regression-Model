@@ -42,6 +42,11 @@ Plot the performance plot
 
 Evaluate the model with the testing data.
 
+### New Sample Data Prediction:
+<img width="1099" height="695" alt="Screenshot 2025-08-19 113420" src="https://github.com/user-attachments/assets/331aa43d-18d9-449e-9ec3-51607ef339bf" />
+
+
+
 ## PROGRAM
 ### Name: SUNIL KUMAR T
 ### Register Number: 212223240164
@@ -102,9 +107,6 @@ plt.ylabel("Loss")
 ### Training Loss Vs Iteration Plot
 <img width="939" height="501" alt="Screenshot 2025-08-19 111219" src="https://github.com/user-attachments/assets/40ee4f47-522c-413f-a7c1-99c95ce77b0f" />
 
-### New Sample Data Prediction:
-
-<img width="976" height="787" alt="Screenshot 2025-08-19 112905" src="https://github.com/user-attachments/assets/0093c03d-322c-420d-8793-71887ad13b3c" />
 
 
 ## RESULT
